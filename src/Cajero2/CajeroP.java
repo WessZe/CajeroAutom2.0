@@ -8,5 +8,4 @@ public class CajeroP {
         invocar.setSaldo(1500);
         invocar.Seleccion();
     }
-
 }

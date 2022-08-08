@@ -11,7 +11,7 @@ public abstract class Operaciones {
     Scanner opcion = new Scanner(System.in);
 
     public void Seleccion() {
- 
+
         int seleccion, comodin = 0;
 
         do {
@@ -39,6 +39,7 @@ public abstract class Operaciones {
                 mensajero.Transaccion();
 
             } else if (seleccion == 2) {
+
                 Operaciones mensajero = new Retiro();
                 mensajero.Transaccion();
 
@@ -49,7 +50,6 @@ public abstract class Operaciones {
 
             } else if (seleccion == 4) {
                 System.out.println("historial en construccion");
-                
 
             } else if (seleccion == 5) {
                 System.out.println("-------------------------------------------");
@@ -69,7 +69,7 @@ public abstract class Operaciones {
 
 //Deposito
     public void Deposito() {
-        deposito = entrada.nextInt();
+        //deposito = entrada.nextInt();
 
     }
 

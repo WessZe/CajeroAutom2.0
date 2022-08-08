@@ -6,29 +6,29 @@ public class Deposito extends Operaciones {
 
     @Override
     public void Transaccion() {
-        Scanner entrada = new Scanner(System.in);
+        
         int quiniento, dosciento, cien, cincuenta, veinte, diez, cinco, dos, uno, total;
 
         //System.out.print("Cuanto desea depositar: ");
         //Deposito();
         System.out.println("Que denominacion desea hacer el deposito:");
-        System.out.print("Quinientos: ");
+        System.out.print("Cuanto billetes de Quinientos Lps: ");
         quiniento = opcion.nextInt();
-        System.out.print("dosciento: ");
+        System.out.print("Cuanto billetes de Dosciento Lps: ");
         dosciento = opcion.nextInt();
-        System.out.print("cien: ");
+        System.out.print("Cuanto billetes de Cien Lps: ");
         cien = opcion.nextInt();
-        System.out.print("cincuenta: ");
+        System.out.print("Cuanto billetes de Cincuenta Lps: ");
         cincuenta = opcion.nextInt();
-        System.out.print("veinte: ");
+        System.out.print("Cuanto billetes de Veinte Lps: ");
         veinte = opcion.nextInt();
-        System.out.print("diez: ");
+        System.out.print("Cuanto billetes de Diez Lps: ");
         diez = opcion.nextInt();
-        System.out.print("cinco: ");
+        System.out.print("Cuanto billetes de Cinco Lps: ");
         cinco = opcion.nextInt();
-        System.out.print("dos: ");
+        System.out.print("Cuanto billetes de Dos Lps: ");
         dos = opcion.nextInt();
-        System.out.print("uno: ");
+        System.out.print("Cuanto billetes de Uno Lps: ");
         uno = opcion.nextInt();
 
         if (quiniento > 0) {
